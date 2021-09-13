@@ -155,7 +155,7 @@ if($content_type == 'text/html'){
 		'a' => 'href',
 		'form' => 'action',
 	);
-	//Знаходжу і міняю силки
+	//Знаходжу і міняю силки (25:45)
 	foreach ($html_resource as $tag => $attribute) {
 		foreach ($html->getElementsByTagName($tag) as  $element) {
 			if($element->hasAttribute($attribute)){
